@@ -15,8 +15,28 @@
 	border-radius:40px;
 	width:50px;
 	background-size: contain;
+	position:relative;
+}
+.panel img{
+	border-radius:40px;
+	width:50px;
+	height:400px;
+}
+.img-text{
+	display: none;
 }
 .active{
-	width:55%;
+	width:55vw;
 	transition:width 2s;
+/* 	border:2px solid red; */
+}
+.active img{
+	width:100%;
+}
+.active .img-text{
+	position:absolute;
+	bottom:10px;
+	left: 20px;
+	color:white;
+	display:inline;
 }
